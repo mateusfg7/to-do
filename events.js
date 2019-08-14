@@ -4,7 +4,11 @@ var styleButton = $('#style');
 var addButton = $('#addButton')
 var input = $('input');
 
-var style = 0;
+var style = JSON.parse(localStorage.getItem('style_mode')) || 0;
+
+function saveStyleToStorage() {
+    localStorage.setItem('style_mode', JSON.stringify(style));
+}
 
 function darkMode() {
     body.addClass('darkBody');
@@ -13,6 +17,7 @@ function darkMode() {
     addButton.addClass('darkElements');
     styleButton.text('Light Mode');
     style = 1;
+    saveStyleToStorage()
 }
 
 function lightMode() {
@@ -27,6 +32,15 @@ function lightMode() {
     addButton.addClass('lightElements');
     styleButton.text('Dark Mode');
     style = 0;
+    saveStyleToStorage()
+}
+
+
+
+if (style == 0) {
+    lightMode();
+} else if (style == 1) {
+    darkMode();
 }
 
 styleButton.click(function(){
@@ -36,4 +50,3 @@ styleButton.click(function(){
         lightMode();
     }
 })
-

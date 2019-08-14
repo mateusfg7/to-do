@@ -4,6 +4,10 @@ var buttonElement = document.querySelector('#app button');
 
 var todos = JSON.parse(localStorage.getItem('list_todos')) || [];
 
+function saveToStorage() {
+    localStorage.setItem('list_todos', JSON.stringify(todos));
+}
+
 function renderTodos() {
     listElement.innerHTML = '';
 
@@ -48,6 +52,3 @@ function deleteTodo(pos){
     saveToStorage();
 }
 
-function saveToStorage() {
-    localStorage.setItem('list_todos', JSON.stringify(todos));
-}
