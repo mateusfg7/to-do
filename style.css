@@ -1,0 +1,66 @@
+a{
+    text-decoration: none;
+    text-transform: lowercase;
+    color: rgb(138, 138, 138);
+}
+
+#app{
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+button, input{
+    padding: 5px;
+}
+
+#style{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: none;
+    background: rgba(126, 126, 126, .5);
+    color: rgba(255, 255, 255, .5);
+}
+
+/*WHITE MODE*/
+
+.lightBody{
+    background:rgb(224, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lightDiv{
+    background: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .6);
+    
+    
+}
+
+.lightElements{}
+
+
+/*DARK MODE*/
+
+.darkBody{
+    background:rgb(43, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.darkDiv{
+    background: rgb(82, 82, 82);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+.darkElements{
+    border: none;
+    border-radius: 10px;
+    background:rgb(43, 43, 43);
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+}
