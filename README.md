@@ -1,5 +1,5 @@
-# TAREFAS
+# TO-DO
 
-Sistema para adicionar uma lista de tarefas
+**Sistema para criar listas**
 
-feito a partit de códigos do curso de JavaScript da [Rocketseat](https://rocketseat.com.br/)
+_feito a partit de códigos do curso de JavaScript da [Rocketseat](https://rocketseat.com.br/)_
