@@ -2,4 +2,4 @@
 
 **Sistema para criar listas**
 
-_feito a partit de códigos do curso de JavaScript da [Rocketseat](https://rocketseat.com.br/)_
+_feito a partir de códigos do curso de JavaScript da [Rocketseat](https://rocketseat.com.br/)_
