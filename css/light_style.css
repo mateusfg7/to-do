@@ -1,0 +1,9 @@
+.lightBody{
+    background:rgb(224, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lightDiv{
+    background: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .6);
+}
